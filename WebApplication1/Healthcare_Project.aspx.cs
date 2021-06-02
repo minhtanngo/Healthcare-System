@@ -25,7 +25,7 @@ namespace WebApplication1
             DataTable tb = new DataTable();
             da.Fill(tb);
 
-            //Ném data vào gridview
+            //Put data vào gridview
             GridView1.DataSource = tb;
             GridView1.DataBind();
         }
